@@ -1,0 +1,8 @@
+{
+  "model": "mock-llm",
+  "requests": 50,
+  "concurrency": 5,
+  "p50_latency_ms": 120,
+  "p95_latency_ms": 240,
+  "throughput_rps": 18
+}
