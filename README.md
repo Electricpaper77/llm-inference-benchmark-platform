@@ -84,3 +84,33 @@ Metrics artifact stored in:
 results/metrics_output.txt
 
 These artifacts demonstrate performance testing and observability for an inference service.
+
+## Quick Benchmark Reproduction
+
+Run the full benchmark workflow:
+
+scripts/run_benchmark.sh
+
+This will:
+
+1. Start the FastAPI inference service
+2. Execute the load testing script
+3. Measure latency and throughput
+4. Save benchmark artifacts
+
+Example output:
+
+Running load test...
+
+p50 latency: ~120 ms
+p95 latency: ~240 ms
+throughput: ~18 req/sec
+
+Artifacts generated:
+
+results/benchmark_run_01.json
+results/metrics_output.txt
+
+Metrics endpoint:
+
+http://localhost:8000/metrics
