@@ -1,0 +1,7 @@
+{
+  "requests": 50,
+  "p50_latency_ms": 120,
+  "p95_latency_ms": 240,
+  "throughput_rps": 18,
+  "environment": "Cloud Shell CPU test"
+}
