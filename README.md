@@ -40,3 +40,11 @@ Latency + Throughput Metrics
       v
 Benchmark Results JSON
 
+
+## What This Project Demonstrates
+
+- API-based inference service
+- Load testing and benchmarking
+- Latency and throughput measurement
+- Persisted benchmark artifacts
+
