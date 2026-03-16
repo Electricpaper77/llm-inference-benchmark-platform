@@ -23,3 +23,20 @@ Benchmark artifacts are stored in:
 
 results/benchmark_run_01.json
 
+
+## Architecture
+
+Client Request
+      |
+      v
+FastAPI Inference API
+      |
+      v
+Benchmark Script (Load Test)
+      |
+      v
+Latency + Throughput Metrics
+      |
+      v
+Benchmark Results JSON
+
